@@ -1,0 +1,16 @@
+[workspace]
+members = [
+    "variables",
+    "collections",
+    "control_flow",
+    "enums",
+    "functions",
+    "guessing_game",
+    "hello-cargo",
+    "ownership",
+    "packages_crates",
+    "reference",
+    "slice",
+    "structs",
+    "variables",
+]
