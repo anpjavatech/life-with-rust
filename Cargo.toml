@@ -12,5 +12,5 @@ members = [
     "reference",
     "slice",
     "structs",
-    "variables",
+    "variables", "rustlings",
 ]
