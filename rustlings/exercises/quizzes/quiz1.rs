@@ -14,6 +14,15 @@
 
 fn main() {
     // You can optionally experiment here.
+    let price = calculate_price_of_apples(80);
+    println!("price : {price}");
+}
+
+fn calculate_price_of_apples(quant: u32) -> u32{
+    if quant > 40{
+        return quant;
+    }
+    quant * 2
 }
 
 // Don't change the tests!
