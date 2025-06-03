@@ -1,4 +1,6 @@
 [workspace]
+resolver = "3"
+
 members = [
     "variables",
     "collections",
@@ -12,5 +14,10 @@ members = [
     "reference",
     "slice",
     "structs",
-    "variables", "rustlings", "error_handling",
+    "variables", "rustlings", "error_handling", "minigrep",
 ]
+
+[profile.dev]
+
+
+
